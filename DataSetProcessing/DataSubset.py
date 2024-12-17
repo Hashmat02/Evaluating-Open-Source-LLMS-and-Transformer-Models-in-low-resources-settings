@@ -3,9 +3,9 @@
 import pandas as pd
 import random
 
-file_path = "/Users/hashmat/Downloads/train-v2.0-clean.csv"
-output_path = "smallset.csv"
-subset_size = 5000
+file_path = "Datasets/SQuAD_Translated_Pashto.csv"
+output_path = "smallpashto.csv"
+subset_size = 250
 data = pd.read_csv(file_path)
 subset = data.sample(n=subset_size, random_state=40)
 sorted_subset = subset.sort_values(by=['data_num', 'paragraph_num'], ascending=[True, True])
