@@ -118,7 +118,7 @@ class SQuADCleaner:
         return cleaned_df
 
 def main():
-    csv_file = "Datasets/SQuAD_Translated_Sindhi.csv"
+    csv_file = "Datasets/SQuAD_Translated_Pashto.csv"
     start_row = 0
     end_row = 5000
     cleaner = SQuADCleaner(original_delimiter='&quot;', new_delimiter='••')
@@ -126,7 +126,7 @@ def main():
     cleaned_df = cleaner.clean_SQuAD(SQuAD)
     
 
-    cleaned_df.to_csv("cleaned_SQuAD_Sindhi.csv", index=False)
+    cleaned_df.to_csv("cleaned_SQuAD_Pashto.csv", index=False)
     print(f"Cleaned data saved. Total rows: {len(cleaned_df)}")
 
 if __name__ == "__main__":
