@@ -11,5 +11,5 @@ and biases in low-resource linguistic settings. Our findings reveal the capabili
 providing insights into their feasibility for augmenting real-world applications in underprivileged linguistic communities. By focusing on lightweight models and low-resource settings, this
 work contributes to bridging the technological gap in NLP for underserved languages.
 
-#Research Paper Link: [AI for ALL](https://drive.google.com/file/d/1XLFHhrBr9UHI94X6NTPOnJCV7UjwEDmy/view?usp=sharing)
+# Research Paper Link: [AI for ALL](https://drive.google.com/file/d/1XLFHhrBr9UHI94X6NTPOnJCV7UjwEDmy/view?usp=sharing)
 
